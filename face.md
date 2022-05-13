@@ -1,9 +1,10 @@
-#https://cafe.naver.com/newgraphics/91 를 참고하여
-#사람의 얼굴에 눈썹을 만들거나 변형하고,
-#입술에 화장을 할 수 있는 프로그램을 만드시오.
+# 그래픽스 팀과제 
+## faceApi를 이용한 미용 프로그램의 구현
+### 조원: 박형민, 김준영, 손정우 
+---
 
-
-```
+### 코드
+```javascript
    
 let img, parts;
 let options = {withLandmarks: true, withDescriptors: false};
@@ -91,4 +92,13 @@ function drawFace() {
 }
 
 ```
+---
+### 구현결과
+![image](https://user-images.githubusercontent.com/50895124/168228113-82b9b435-b771-428c-8854-4c6beabcdb52.png)
+
+---
+### 소감
+아직 전체적인 코드를 이해하지 못하였지만 최대한 팀원들과 토의하면서 서로 이해한 부분에대해서 설명하고 가르쳐 주는식으로 과제를 진행하였습니다. 사실 저희가 원한건 입술만 칠하는 것이였는데 아직 저희 능력이 부족해서 그거까지 구현을 하지 못하였습니다. 수업시간에 조금 더 집중하여 앞으로 저희가 원하는걸 구현할 수 있도록 노력하겠습니다. 감사합니다
+
+
 
