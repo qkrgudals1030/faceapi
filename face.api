@@ -3,7 +3,7 @@
 #입술에 화장을 할 수 있는 프로그램을 만드시오.
 
 
-~~~    
+```
    
 let img, parts;
 let options = {withLandmarks: true, withDescriptors: false};
@@ -90,5 +90,5 @@ function drawFace() {
   endShape();
 }
 
-~~~
+```
 
